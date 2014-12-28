@@ -1,0 +1,4 @@
+local component = require "component"
+while true do
+component.particle.spawn("explosion",-0.5,0,-0.5,0,.125,0)
+end

@@ -1,0 +1,5 @@
+local component = require "component"
+while true do
+component.particle.spawn("largesmoke",-0.5,0,-0.5,0,.125,0)
+os.sleep(0.2)
+end
